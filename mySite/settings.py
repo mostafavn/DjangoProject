@@ -11,9 +11,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '=uu(t6-%v@2a)&qz08!xdzjt3c&4nypkjpvj@xm#!-1kz+(c)m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-# ALLOWED_HOSTS = ['mostafa-vn.ir']
-ALLOWED_HOSTS = []
+DEBUG = False
+
+ALLOWED_HOSTS = ['mostafa-vn.ir']
 
 
 # Application definition
