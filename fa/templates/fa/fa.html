@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>مصطفی واحدی نژاد</title>
+
+<meta name="author" content="Mostafa Vahedi Nejad">
+
+<meta name="description" content="وبسایت رسمی مصطفی واحدی نژاد">
+
+<meta name="keywords" content="mostafa, vahedi, vn, nejad, mostafa vn, مصطفی واحدی نژاد, واحدی نژاد, مصطفی">
+
+<!-- Stylesheets -->
+
+{% load static %}
+
+<link href="{% static 'fa/css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/style.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/responsive.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/font-awesome-all.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/flaticon.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/etline.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/animate.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/owl.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/jquery.mCustomScrollbar.min.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/custom-animate.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/hover.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/jquery.background-video.css' %}" rel="stylesheet">
+<link href="{% static 'fa/css/style.css' %}" rel="stylesheet">
+
+<!--Favicon-->
+<link rel="shortcut icon" href="{% static 'fa/images/favicon.png' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'fa/images/favicon.png' %}" type="image/x-icon">
+<!-- Responsive -->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<meta name="google-site-verification" content="hhBrdIyhs0LKTgr9UPEa9hePdDIqO_-PIfbvlIrrpM8" />
+<meta name="google-site-verification" content="O0mKYmj8waj_KDJM3Z3A5bzbko75n-nzlkvfcY29fIM" />
+
+<meta name="theme-color" content="#3c3c4c"/>
+
+<!--<script type="text/javascript">!function(){function t(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,localStorage.getItem("rayToken")?t.src="https://app.raychat.io/scripts/js/"+o+"?rid="+localStorage.getItem("rayToken")+"&href="+window.location.href:t.src="https://app.raychat.io/scripts/js/"+o;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}var e=document,a=window,o="63558db7-285d-4d62-9993-43c279eaf88d";"complete"==e.readyState?t():a.attachEvent?a.attachEvent("onload",t):a.addEventListener("load",t,!1)}();</script>-->
+
+</head>
+
+<body>
+
+<script type="text/javascript" src="{% static 'fa/js/close-right-click.js' %}"></script>
+
+<audio id="myaudio" loop autoplay controls hidden>
+    <source src="{% static 'fa/a.mp3' %}" type="audio/mpeg">
+</audio>
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.3;
+</script>
+
+<div class="page-wrapper">
+
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <!--Nav Outer-->
+            <div class="nav-outer clearfix">
+                <div class="logo"><a href="index.html"><img src="{% static 'fa/images/logo.png' %}" alt=""></a></div>
+                <!-- Main Menu -->
+                <nav class="main-menu-outer">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="navbar-collapse collapse scroll-nav clearfix">
+                        <ul class="navigation clearfix">
+                            <li class="current"><a href="#home">خانه</a></li>
+                            <li><a href="#about">درباره</a></li>
+                            <li><a href="#resume">خلاصه</a></li>
+                            <li><a href="#work">کار ها</a></li>
+                            <li><a href="#services">فروشگاه</a></li>
+                            <li><a href="#blog">بلاگ</a></li>
+                            <li><a href="#contact">تماس</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->
+            </div>
+            <!--Nav Outer End-->
+        </div>
+    </div>
+
+    <div class="card-outer">
+        <div class="page-background">
+            <div class="portfolio-bg">
+                <!-- Background -->
+                <div class="image active" style="background-image:url({% static 'fa/images/background/bg-1.jpg' %})"></div>
+                <div class="image" style="background-image:url({% static 'fa/images/background/bg-1.jpg' %})"></div>
+                <div class="image" style="background-image:url({% static 'fa/images/background/bg-1.jpg' %})"></div>
+                <div class="image" style="background-image:url({% static 'fa/images/background/bg-1.jpg' %})"></div>
+                <div class="image" style="background-image:url({% static 'fa/images/background/bg-1.jpg' %})"></div>
+                <div class="image" style="background-image:url({% static 'fa/images/background/bg-1.jpg' %})"></div>
+                <div class="image" style="background-image:url({% static 'fa/images/background/bg-1.jpg' %})"></div>
+            </div>
+            <div id="particles-js" class="particles-pattern"></div>
+        </div>
+        <div class="scroll-box">
+            <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                <div class="card-wrapper">
+                    <div class="card-inner-box">
+                        <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                            <ul class="main-menu">
+                                <li class="active home"><a class="logo" href="#home"><img src="{% static 'fa/images/logo.png' %}" alt=""></a></li>
+                                <li><a href="#about"><i class="icon-profile-male"></i>درباره</a></li>
+                                <li><a href="#resume"><i class="icon-document"></i>رزومه</a></li>
+                                <li><a href="#work"><i class="icon-briefcase"></i>کار ها</a></li>
+                                <li><a href="#services"><i class="icon-adjustments"></i>فروشگاه</a></li>
+                                <li><a href="#blog"><i class="icon-chat"></i>بلاگ</a></li>
+                                <li><a href="#contact"><i class="icon-global"></i>تماس</a></li>
+                            </ul>
+                        </header>
+
+                         <!-- Card Item -->
+                        <div class="card-home card-item active" id="home" style="background-image:url({% static 'fa/images/background/bg-2.png' %})">
+
+                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                                <div class="image"><img src="{% static 'fa/images/resource/user.jpg' %}" alt=""></div>
+
+                                <div dir="rtl" class="author">
+                                    <h3>مصطفی واحدی نژاد</h3>
+                                    <div class="designation">
+                                        من یک
+                                        <div class="typing-title">
+                                            <p> <strong>برنامه نویس</strong></p>
+                                            <p> <strong>توسعه دهنده</strong></p>
+                                            <p> <strong>طراح وب</strong></p>
+                                        </div>
+                                        <span class="typed-title"></span>
+										هستم.
+                                    </div>
+                                </div>
+                                <ul class="social-icon-two">
+                                    <li><a href=""><span class="icon-facebook"></span></a></li>
+                                    <li><a href=""><span class="icon-twitter"></span></a></li>
+                                    <li><a href=""><span class="icon-dribbble"></span></a></li>
+                                    <li><a href=""><span class="icon-rss"></span></a></li>
+                                    <li><a href=""><span class="icon-linkedin"></span></a></li>
+                                </ul>
+                                <div class="link-btn">
+                                    <a href="https://mostafa-vn.ir/en" class="theme-btn btn-style-two">ترجمه به انگلیسی</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- End Item -->
+
+                        <!-- Card Item -->
+                        <div class="card-about card-item" id="about">
+                            <div class="card-inner">
+                                <!-- About Info -->
+                                <div dir="rtl" class="about-info">
+                                    <h4 class="title">درباره ی من</h4>
+                                    <div class="text"><p>بنده مصطفی واحدی نژاد هستم دانشجوی نرم افزار دانشگاه لاهیجان، کاربر دبیان و برنامه نویس پایتون. هدف از ایجاد این وبسایت، معرفی خودم و بالا بردن سطح برنامه نویسی دنبال کنندگان است تا خدمتی به دنیای اوپن سورس کرده باشم. دوستان میتونین از قسمت بلاگ آموزش هارو دنبال کنید   </p></div>
+                                    <div class="info-list">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-style-one">
+                                                    <li><strong><span class="far fa-envelope"></span> ایمیل :</strong> info@mostafa-vn.ir </li>
+                                                    <li><strong><span class="fas fa-phone"></span> شماره :</strong> 09397364845 </li>
+                                                    <li><strong><span class="fas fa-laptop"></span> فری لنس :</strong>  موجود </li>
+                                                </ul>
+                                            </div>
+											<div class="col-md-6">
+                                                <ul class="list-style-one">
+                                                    <li><strong><span class="far fa-user"></span> نام :</strong>  مصطفی واحدی نژاد  </li>
+                                                    <li><strong><span class="far fa-calendar"></span> تاریخ تولد :</strong> 1378/09/11 </li>
+                                                    <li><strong><span class="fas fa-paper-plane"></span> آدرس :</strong> ایران-گیلان-رشت </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Our Skills -->
+                                <div dir="rtl" class="our-skills">
+                                    <h4 class="title">مهارت ها</h4>
+                                    <!--Progress Levels-->
+                                    <div class="progress-levels row">
+
+                                        <!--Skill Box-->
+                                        <div class="progress-box html wow fadeInRight col-sm-6" data-wow-delay="1000ms" data-wow-duration="1500ms">
+                                            <div class="box-title"><i class="fab fa-python"></i>‌ ‌ ‌ پایتون</div>
+                                            <div class="inner">
+                                                <div class="bar">
+                                                    <div class="bar-innner"><div class="bar-fill" data-percent="90"><div class="percent"></div></div></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--Skill Box-->
+                                        <div class="progress-box wow fadeInRight col-sm-6" data-wow-delay="1000ms" data-wow-duration="1500ms">
+                                            <div class="box-title"><i class="fab fa-linux"></i>‌ ‌ ‌ لینوکس</div>
+                                            <div class="inner">
+                                                <div class="bar">
+                                                    <div class="bar-innner"><div class="bar-fill" data-percent="70"><div class="percent"></div></div></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--Skill Box-->
+                                        <div class="progress-box php wow fadeInRight col-sm-6" data-wow-delay="1200ms" data-wow-duration="1500ms">
+                                            <div class="box-title"><i class="fab fa-css3"></i>‌ ‌ ‌ Html و css</div>
+                                            <div class="inner">
+                                                <div class="bar">
+                                                    <div class="bar-innner"><div class="bar-fill" data-percent="80"><div class="percent"></div></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--Skill Box-->
+                                        <div class="progress-box wp wow fadeInRight col-sm-6" data-wow-delay="1200ms" data-wow-duration="1500ms">
+                                            <div class="box-title"><i class="fab fa-wordpress-simple"></i>‌ ‌ ‌ وردپرس</div>
+                                            <div class="inner">
+                                                <div class="bar">
+                                                    <div class="bar-innner"><div class="bar-fill" data-percent="90"><div class="percent"></div></div></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--Skill Box-->
+                                        <div class="progress-box tel wow fadeInRight col-sm-6" data-wow-delay="1200ms" data-wow-duration="1500ms">
+                                            <div class="box-title"><i class="fas fa-robot"></i>‌ ‌ ‌ طراحی ربات تلگرام</div>
+                                            <div class="inner">
+                                                <div class="bar">
+                                                    <div class="bar-innner"><div class="bar-fill" data-percent="90"><div class="percent"></div></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--Skill Box-->
+                                        <div class="progress-box py wow fadeInRight col-sm-6" data-wow-delay="1200ms" data-wow-duration="1500ms">
+                                            <div class="box-title"><i class="fab fa-yoast"></i>‌ ‌ ‌ راه اندازی وبسایت و SEO</div>
+                                            <div class="inner">
+                                                <div class="bar">
+                                                    <div class="bar-innner"><div class="bar-fill" data-percent="80"><div class="percent"></div></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End item -->
+
+                        <!-- Card item -->
+                        <div dir="rtl" class="card-resume card-item" id="resume">
+                            <div class="card-inner">
+                                <!--Column-->
+                                <div class="timeline-column">
+                                    <div class="inner">
+                                        <div class="col-header">
+                                            <div class="icon-box">
+                                                <span class="fas fa-suitcase"></span>
+                                            </div>
+                                            <h5>رزومه</h5>
+                                        </div>
+
+                                        <!--Timeline Block-->
+                                        <div class="timeline-block">
+                                            <div class="inner-box">
+                                                <h5>پایتون</h5>
+                                                <div class="date">جنگو، دیتابیس، کیوت، یادگیری ماشین، ربات تلگرام</div>
+                                                <div class="text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-block">
+                                            <div class="inner-box">
+                                                <h5>وبسایت</h5>
+                                                <div class="date">هاستینگ، وردپرس، جوملا، طراحی قالب ،SEO</div>
+                                                <div class="text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-block">
+                                            <div class="inner-box">
+                                                <h5>گنو/لینوکس</h5>
+                                                <div class="date">دبیان، آرچ، کالی لینوکس، Lpic1، Linux assistance</div>
+                                                <div class="text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End item -->
+                        <!-- Card item -->
+                        <div class="card-projects card-item" id="work">
+                            <div class="card-inner masonry-gallery">
+                                <h4 dir="rtl" class="title">کار ها</h4>
+                                <div class="row items-container">
+                                    <div class="projects-block col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="{% static 'fa/images/gallery/1.jpg' %}" alt="image" style="border-radius: 15px;">
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h5>متاسپلویت</h5>
+                                                <span>آموزش متاسپلویت کالی لینوکس</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="{% static 'fa/images/gallery/2.jpg' %}" alt="image" style="border-radius: 15px;">
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h5>جنگو</h5>
+                                                <span>آموزش فریمورک جنگو پایتون</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="{% static 'fa/images/gallery/3.jpg' %}" alt="image" style="border-radius: 15px;">
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h5>پایتون</h5>
+                                                <span>آموزش کتابخانه های پایتون</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="{% static 'fa/images/gallery/4.jpg' %}" alt="image" style="border-radius: 15px;">
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h5>ترموکس</h5>
+                                                <span>آموزش ترموکس اندروید</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End item -->
+                        <!-- Card item -->
+                        <div dir="rtl" class="card-services card-item" id="services">
+                            <div class="card-inner">
+                                <h4 class="title">سرویس ها</h4>
+                                <div class="row">
+
+                                    {% for product in latest_product_list %}
+                                        <div class="services-block col-md-6">
+                                            <div class="inner-box hvr-float-shadow">
+                                                <div class="icon-box"><span class="icon-tools"></span></div>
+                                                <h4><a href="https://{{ product.link }}/" target="_blank">{{ product.name }}</a></h4>
+                                                <div class="text">{{ product.info }}</div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End item -->
+                       <!-- Card item -->
+                        <div  class="card-blog single-post card-item" id="blog">
+                            <div class="card-inner">
+                                <h4 dir="rtl" class="title">بلاگ</h4>
+
+                                {% for post in latest_post_list reversed %}
+                                    <div class="news-block">
+                                        <div class="inner-box">
+                                            <div class="image">
+                                                <img src="{% static 'fa/images/resource/tor.png' %}" alt="" style="border-radius: 10px;">
+                                            </div>
+                                            <div class="lower-content">
+                                                <div class="date" dir="rtl"><span class="far fa-calendar"></span>{{ post.pub_date }}</div>
+                                                <h5 dir="rtl">{{ post.title }}</h5>
+                                                <div class="text" dir="rtl">{{ post.text }}</div>
+                                                <blockquote class="blockquote">
+                                                    <div class="icon"><img src="{% static 'fa/images/icons/quote.png' %}" alt=""></div>
+                                                      <!--دوستانم مطمئن هستم که از هفت رشته کوهستانی درید. هوا شروع شد.-->
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+
+                                <div class="comments-area">
+                                    <div class="group-title"><h4 dir="rtl">نظرات</h4></div>
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="{% static 'fa/images/resource/author.jpg' %}" alt="" dir="rtl"></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix" dir="rtl"><strong>امیر لطیفی</strong></div>
+                                                <div class="text" dir="rtl">حاجی دمت گرم هم برنامه نویسیت عالیه هم مطالبت خلاصه و مفید و منظم، همینظوری ادامه بده لطفا</div>
+                                                <!--<a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> پاسخ</a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="{% static 'fa/images/resource/author.jpg' %}" alt="" dir="rtl"></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix" dir="rtl"><strong>سینا زاهدی</strong></div>
+                                                <div class="text" dir="rtl">وبسایتت به شدت معرکست داداش دمت گرم، مطالب آموزشیت هم عالیه ممنون </div>
+                                                <!--<a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> پاسخ</a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span><br></span>
+                                <span><br></span>
+                                <div class="contact-form">
+                                    <div class="group-title"><h4 dir="rtl">گذاشتن نظر</h4></div>
+                                    <!--Comment Form-->
+                                    <form method="post" action="" id="contact-form">
+                                        <div style="padding-right:10px;" class="row clearfix">
+
+                                            <div class="col-md-6 form-group">
+                                                <input type="email" name="email" placeholder="ایمیل" required  dir="rtl">
+                                            </div>
+
+                                            <div class="col-md-6 form-group">
+                                                <input type="text" name="username" placeholder="نام" required dir="rtl">
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <textarea name="message" placeholder="نظر" dir="rtl"></textarea>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 form-group" dir="rtl">
+                                                <button class="theme-btn btn-style-two" type="submit" name="submit-form">فرستادن نظر</button>
+                                            </div>
+
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End item -->
+                        <!-- Card item -->
+                        <div dir="rtl" class="card-contact card-item" id="contact">
+                            <div class="card-inner">
+                                <h4 class="title">تماس با ما</h4>
+                                <!--<div class="map-section">-->
+                                    <!--Map Outer-->
+                                <!--    <div class="map-outer">-->
+                                        <!--Map Canvas-->
+                                <!--        <div class="map-canvas"-->
+                                <!--            data-zoom="12"-->
+                                <!--            data-lat="-37.817085"-->
+                                <!--            data-lng="144.955631"-->
+                                <!--            data-type="roadmap"-->
+                                <!--            data-hue="#ffc400"-->
+                                <!--            data-title="Envato"-->
+                                <!--            data-icon-path="images/icons/map-marker.png"-->
+                                <!--            data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">-->
+                                <!--        </div>-->
+                                <!--    </div>-->
+                                <!--</div>-->
+                                <!-- Contact Form -->
+                                <div style="padding:10px;" class="contact-form">
+                                    <!--Comment Form-->
+                                    <form method="post" action="" id="contact-form">
+                                        <div class="row clearfix">
+
+                                            <div class="col-md-6 form-group">
+                                                <input type="email" name="email" placeholder="ایمیل" required>
+                                            </div>
+
+											<div class="col-md-6 form-group">
+                                                <input type="text" name="username" placeholder="نام" required>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <textarea name="message" placeholder="متن"></textarea>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <button class="theme-btn btn-style-two" type="submit" name="submit-form"> فرستادن ! </button>
+                                            </div>
+                                            <div>
+                                                <br>
+                                                <span class='spanii'>
+                                                    <br>
+                                                    <a href="https://t.me/white_roze" target="_blank"><img class="imgg" src="{% static 'fa/images/icons/telegram-icon.png' %}" style="width:53px;height:53px"></a>
+                                                    <a href="https://github.com/mostafa-vn" target="_blank"><img class="imgg" src="{% static 'fa/images/icons/github_logo.png' %}" style="width:50px;height:50px;"></a>
+                                                    <a href="https://instagram.com/mostafa_vn.ir" target="_blank"><img class="imgg" src="{% static 'fa/images/icons/Instagram_AppIcon_Aug2017.png' %}" style="width:43px;height:43px"></a>
+                                                    <a href="mailto:mostafa.vahedi.nejad@gmail.com" target="_blank"><img class="imgg" src="{% static 'fa/images/icons/gmail.png' %}" style="width:52px;height:52px"></a>
+                                                    <a href="tel:+989397364845" target="_blank"><img class="imgg" src="{% static 'fa/images/icons/phone-flat.png' %}" style="width:48px;height:48px"></a>
+                                                    <a href="https://sololearn.com/Profile/6477182" target="_blank"><img class="imgg" src="{% static 'fa/images/icons/0.png' %}" style="width:50px;height:50px;"></a>
+                                                    <!--<a href="http://pgyhs3ytyaqulz45.onion" target="_blank"><img class="imgg" src="http://www.iconarchive.com/download/i106458/papirus-team/papirus-apps/tor.ico" style="width:50px;height:50px;"></a>-->
+                                                </span>
+                                                <!--<div>-->
+                                                <!--    <br>-->
+                                                <!--</div>-->
+                                                <!--<iframe width="650" height="300" src="https://mars.nasa.gov/layout/embed/send-your-name/mars2020/certificate/?cn=549083332501" frameborder="0"></iframe>-->
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--End Contact Form -->
+                            </div>
+                        </div>
+                        <!-- End item -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End pagewrapper-->
+
+
+<script src="{% static 'fa/js/jquery.js' %}"></script>
+<script src="{% static 'fa/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'fa/js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+<script src="{% static 'fa/js/owl.js' %}"></script>
+<script src="{% static 'fa/js/wow.js' %}"></script>
+<script src="{% static 'fa/js/appear.js' %}"></script>
+<script src="{% static 'fa/js/validate.js' %}"></script>
+<script src="{% static 'fa/js/pagenav.js' %}"></script>
+<script src="{% static 'fa/js/jquery-type.js' %}"></script>
+<script src="{% static 'fa/js/isotope.js' %}"></script>
+<script src="{% static 'fa/js/particles.js' %}"></script>
+<script src="{% static 'fa/js/particles-script.js' %}"></script>
+<script src="{% static 'fa/js/jquery.background-video.js' %}"></script>
+<script src="{% static 'fa/js/script.js' %}"></script>
+
+<!--Google Map APi Key-->
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA"></script>-->
+<!--<script src="js/map-script.js"></script>-->
+<!--End Google Map APi-->
+
+</body>
+</html>
